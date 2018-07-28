@@ -2,14 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(hash)
-  new_num=""
-  i = 0
-  while i < hash.length
-    if hash[i] < hash[1]  && hash[i] < hash[2]
-      new_num = hash[i]
-      new_num
-    elsif hash.empty?
-      nil 
-    end 
-  end 
+  
+    
 end   
