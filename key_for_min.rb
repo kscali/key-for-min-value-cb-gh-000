@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   hash.each do |name, num|
-    lower = num.find {|s| s< num }
+    lower = num.find {|s| s < num }
     lower
     end
   end
