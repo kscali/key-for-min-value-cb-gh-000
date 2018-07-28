@@ -7,7 +7,7 @@ def key_for_min_value(hash)
   while i < hash.length
     if hash[i] < hash[1]  && hash[i] < hash[2]
       new_num = hash[i]
-      name
+      new_num
     elsif hash.empty?
       nil 
     end 
