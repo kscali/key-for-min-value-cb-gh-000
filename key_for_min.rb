@@ -3,9 +3,9 @@
 
 def key_for_min_value(hash)
   new_num=""
-  key_for_min_value.each do |name, num|
-    
-    if num < new_num
+  i = 0
+  while i < hash.length
+    if hash[i] < 
       new_num = num
       name
     elsif hash.empty?
